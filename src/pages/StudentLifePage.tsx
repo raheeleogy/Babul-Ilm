@@ -72,7 +72,7 @@ export const StudentLifePage: React.FC<StudentLifePageProps> = ({ onNavigate }) 
         <div className="lg:col-span-6">
           <div className="relative rounded-2xl overflow-hidden shadow-xl border-2 border-emerald-400">
             <img
-              src="/images/student_event_pakistan_day.jpg"
+  src={`${import.meta.env.BASE_URL}images/student_event_pakistan_day.jpg`}
               alt="Students celebrating Pakistan Day with flag and creative crafts at Babul-Ilm"
               className="w-full h-80 sm:h-96 object-cover"
             />

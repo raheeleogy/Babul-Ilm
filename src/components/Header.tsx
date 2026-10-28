@@ -110,7 +110,7 @@ export const Header: React.FC<HeaderProps> = ({
 
 <div className="w-16 h-16 sm:w-19.5 sm:h-19.5 flex-shrink-0 flex items-center justify-center rounded-2xl bg-white shadow-md ring-1 ring-slate-200/80 group-hover:shadow-lg group-hover:ring-emerald-500/40 group-hover:scale-105 transition-all duration-300">
   <img
-    src="/babul-ilm-logo.jpeg"
+src={`${import.meta.env.BASE_URL}babul-ilm-logo.jpeg`}
     alt="Babul-Ilm Education System Logo"
     className="w-full h-full object-contain"
   />

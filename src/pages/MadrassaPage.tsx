@@ -87,7 +87,7 @@ export const MadrassaPage: React.FC<MadrassaPageProps> = ({ onNavigate }) => {
         <div className="lg:col-span-6">
           <div className="relative rounded-2xl overflow-hidden shadow-xl border-2 border-emerald-300">
             <img
-              src="/images/madrassa_prayer_guidance.jpg"
+    src={`${import.meta.env.BASE_URL}images/madrassa_prayer_guidance.jpg`}
               alt="Students offering congregational prayer in Madrassa under religious guidance at Babul-Ilm"
               className="w-full h-80 sm:h-96 object-cover"
             />

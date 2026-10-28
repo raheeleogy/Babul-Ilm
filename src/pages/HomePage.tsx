@@ -126,7 +126,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
                 
                 <div className="relative rounded-2xl overflow-hidden bg-navy-900 border-2 border-gold-400/50 shadow-2xl">
                   <img
-                    src="/images/campus_exterior_principal_students.jpg"
+src={`${import.meta.env.BASE_URL}images/campus_exterior_principal_students.jpg`}
                     alt="Babul-Ilm Education System Campus Exterior with Principal Syed Mohsin Abbas Naqvi and students"
                     className="w-full h-80 sm:h-96 object-cover object-center transform hover:scale-105 transition-transform duration-700"
                   />
@@ -180,7 +180,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
           <div className="bg-white rounded-2xl overflow-hidden border border-navy-100 shadow-soft hover:shadow-elevated transition-all flex flex-col group">
             <div className="relative h-64 overflow-hidden bg-navy-100">
               <img
-                src="/images/classroom_exam_learning.jpg"
+  src={`${import.meta.env.BASE_URL}images/classroom_exam_learning.jpg`}
                 alt="School classroom examination and structured academic learning at Babul-Ilm"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
@@ -236,7 +236,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
           <div className="bg-white rounded-2xl overflow-hidden border border-emerald-200/80 shadow-soft hover:shadow-elevated transition-all flex flex-col group">
             <div className="relative h-64 overflow-hidden bg-emerald-950">
               <img
-                src="/images/madrassa_prayer_guidance.jpg"
+  src={`${import.meta.env.BASE_URL}images/madrassa_prayer_guidance.jpg`}
                 alt="Students in congregational prayer in Madrassa under religious guidance"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
@@ -423,7 +423,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
             <div className="bg-white p-3 sm:p-4 rounded-3xl border border-navy-100 shadow-xl space-y-3">
               <div className="rounded-2xl overflow-hidden border border-slate-100">
                 <img
-                  src="/images/babul_ilm_admission_poster.jpg"
+  src={`${import.meta.env.BASE_URL}images/babul_ilm_admission_poster.jpg`}
                   alt="Official Admission poster 2026-2027 of Babul-Ilm Education System Islamabad"
                   className="w-full h-auto object-cover"
                 />

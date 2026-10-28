@@ -80,7 +80,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
         <div className="lg:col-span-6">
           <div className="relative rounded-2xl overflow-hidden shadow-2xl border-2 border-gold-400">
             <img
-              src="/images/campus_exterior_principal_students.jpg"
+      src={`${import.meta.env.BASE_URL}images/campus_exterior_principal_students.jpg`}
               alt="Principal Syed Mohsin Abbas Naqvi with students at Babul-Ilm Education System Islamabad"
               className="w-full h-auto object-cover"
             />

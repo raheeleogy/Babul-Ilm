@@ -121,7 +121,7 @@ export const AdmissionsPage: React.FC<AdmissionsPageProps> = ({
         <div className="lg:col-span-5 bg-white p-4 rounded-3xl border border-navy-100 shadow-md">
           <div className="rounded-2xl overflow-hidden border border-slate-200">
             <img
-              src="/images/babul_ilm_admission_poster.jpg"
+   src={`${import.meta.env.BASE_URL}images/babul_ilm_admission_poster.jpg`}
               alt="Official Admission Poster 2026-2027 of Babul-Ilm Education System Islamabad"
               className="w-full h-auto object-cover"
             />

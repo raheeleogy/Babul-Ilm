@@ -88,7 +88,7 @@ export const SchoolPage: React.FC<SchoolPageProps> = ({ onNavigate }) => {
         <div className="lg:col-span-6">
           <div className="relative rounded-2xl overflow-hidden shadow-xl border border-navy-100">
             <img
-              src="/images/classroom_exam_learning.jpg"
+  src={`${import.meta.env.BASE_URL}images/classroom_exam_learning.jpg`}
               alt="Classroom study session and written evaluation at Babul-Ilm"
               className="w-full h-80 sm:h-96 object-cover"
             />
