@@ -28,7 +28,9 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     titleEn: 'Campus Exterior & Administration',
     titleUr: 'کیمپس عمارت اور انتظامیہ',
     category: 'campus',
-    imageUrl: '/images/campus_exterior_principal_students.jpg',
+    
+imageUrl: `${import.meta.env.BASE_URL}images/campus_exterior_principal_students.jpg`,
+
     captionEn: 'Principal Syed Mohsin Abbas Naqvi with students outside the Babul-Ilm campus entrance in Irfan Abad, Tramri Chowk, Islamabad.',
     captionUr: 'پرنسپل سید محسن عباس نقوی کیمپس کے سامنے طلباء کے ہمراہ، عرفان آباد، ترامڑی چوک اسلام آباد۔',
     isAuthentic: true
@@ -38,7 +40,9 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     titleEn: 'Congregational Prayer & Religious Education',
     titleUr: 'نماز باجماعت اور دینی تربیت',
     category: 'madrassa',
-    imageUrl: '/images/madrassa_prayer_guidance.jpg',
+   
+imageUrl: `${import.meta.env.BASE_URL}images/madrassa_prayer_guidance.jpg`,
+
     captionEn: 'Students offering prayers in congregation under the spiritual guidance and leadership of our resident Islamic scholar.',
     captionUr: 'دینی استاد اور عالم دین کی زیر نگرانی نمازِ باجماعت اور عملی اسلامی تربیت کا روح پرور منظر۔',
     isAuthentic: true
@@ -48,7 +52,9 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     titleEn: 'Academic Assessment & Classroom Learning',
     titleUr: 'کلاس روم میں تدریس اور امتحانی جائزہ',
     category: 'school',
-    imageUrl: '/images/classroom_exam_learning.jpg',
+  
+imageUrl: `${import.meta.env.BASE_URL}images/classroom_exam_learning.jpg`,
+
     captionEn: 'Female students engaged in focused academic examination and coursework in a disciplined, supportive classroom environment.',
     captionUr: 'معاون اور باوقار تعلیمی ماحول میں طالبات امتحان اور تحریری جائزہ دیتے ہوئے۔',
     isAuthentic: true
@@ -58,7 +64,9 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     titleEn: 'Creative Activities & Pakistan Day Celebrations',
     titleUr: 'تخلیقی سرگرمیاں اور یوم آزادی کی تقریب',
     category: 'events',
-    imageUrl: '/images/student_event_pakistan_day.jpg',
+
+imageUrl: `${import.meta.env.BASE_URL}images/student_event_pakistan_day.jpg`,
+
     captionEn: 'Students participating in national day celebrations, exhibiting patriotic art, crafts, and teamwork.',
     captionUr: 'طلباء و طالبات یوم آزادی کی تقریب میں تخلیقی سرگرمیوں اور قومی جذبے کا مظاہرہ کرتے ہوئے۔',
     isAuthentic: true
@@ -68,7 +76,9 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     titleEn: 'Official Admission Announcement 2026–2027',
     titleUr: 'سرکاری اعلانِ داخلہ 2026–2027',
     category: 'campus',
-    imageUrl: '/images/babul_ilm_admission_poster.jpg',
+
+imageUrl: `${import.meta.env.BASE_URL}images/babul_ilm_admission_poster.jpg`,
+
     captionEn: 'Official banner for admissions in session 2026–2027 highlighting requirements, boarding facility, and administration contacts.',
     captionUr: 'تعلیمی سال 2026-2027 کا باضابطہ اعلانِ داخلہ جس میں ٹیسٹ، کوائف اور ہاسٹل سہولت کی تفصیلات درج ہیں۔',
     isAuthentic: true
